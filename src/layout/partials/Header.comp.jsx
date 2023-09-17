@@ -1,11 +1,11 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import logo from "../../assets/images/logo.png";
+import log from "../../assets/images/logo.png";
 export const Header = () => {
   return (
     <Navbar collapseOnSelect bg="info" variant="dark" expand="md">
       <Navbar.Brand>
-        <img src={logo} alt="logo" width="50px" />
+        <img src={log} alt="logo" width="50px" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
