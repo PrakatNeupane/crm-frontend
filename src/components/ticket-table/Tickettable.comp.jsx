@@ -1,9 +1,10 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 const Tickettable = ({ tickets }) => {
   return (
-    <Table striped border hover>
+    <Table striped hover>
       <thead>
         <tr>
           <th>#</th>
@@ -12,25 +13,30 @@ const Tickettable = ({ tickets }) => {
           <th>Opened Date</th>
         </tr>
       </thead>
-
-      {tickets.length ? (
-        tickets.map((row) => (
+      <tbody>
+        {tickets.length ? (
+          tickets.map((row) => (
+            <tr key={Math.random()}>
+              <td>{row.serial}</td>
+              <td>{row.subjects}</td>
+              <td>{row.status}</td>
+              <td>{row.addedAt}</td>
+            </tr>
+          ))
+        ) : (
           <tr>
-            <td>{row.serial}</td>
-            <td>{row.subjects}</td>
-            <td>{row.status}</td>
-            <td>{row.addedAt}</td>
+            <td colSpan="4" className="text-center pt-5">
+              No results to show
+            </td>
           </tr>
-        ))
-      ) : (
-        <tr>
-          <td colSpan="4" className="text-center pt-5">
-            No results to show
-          </td>
-        </tr>
-      )}
+        )}
+      </tbody>
     </Table>
   );
+};
+
+Tickettable.propTypes = {
+  tickets: PropTypes.array.isRequired,
 };
 
 export default Tickettable;

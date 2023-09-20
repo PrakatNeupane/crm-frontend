@@ -1,7 +1,7 @@
 import React from "react";
 import { Breadcrumb } from "react-bootstrap";
 
-const BreadcrumbComponent = ({ page }) => {
+const PageBreadCrumb = ({ page }) => {
   return (
     <Breadcrumb>
       <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
@@ -10,4 +10,4 @@ const BreadcrumbComponent = ({ page }) => {
   );
 };
 
-export default BreadcrumbComponent;
+export default PageBreadCrumb;
