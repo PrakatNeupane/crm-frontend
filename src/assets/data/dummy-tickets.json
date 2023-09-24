@@ -3,36 +3,56 @@
     "serial": "1",
     "subjects": "Issue with ssl",
     "status": "Client response pending",
-    "addedAt": "21/09/2023"
+    "addedAt": "21/09/2023",
+    "history": [
+      { "date": "20-12-2900", "message": "sdfsdf", "messageBy": "client" },
+      { "date": "20-12-2900", "message": "23", "messageBy": "operator" },
+      { "date": "20-12-2900", "message": "sdfsf31sdf", "messageBy": "client" }
+    ]
   },
   {
     "serial": "2",
     "subjects": "Email respondence failure",
     "status": "Client response pending",
-    "addedAt": "21/09/2023"
+    "addedAt": "21/09/2023",
+    "history": [
+      { "date": "20-12-2900", "message": "sdfsdf", "messageBy": "client" }
+    ]
   },
   {
     "serial": "3",
     "subjects": "Graphics issue",
     "status": "Client response pending",
-    "addedAt": "21/09/2023"
+    "addedAt": "21/09/2023",
+    "history": [
+      { "date": "20-12-2900", "message": "sdfsdf", "messageBy": "client" }
+    ]
   },
   {
     "serial": "4",
     "subjects": "Issue with Client response",
     "status": "Client response pending",
-    "addedAt": "21/09/2023"
+    "addedAt": "21/09/2023",
+    "history": [
+      { "date": "20-12-2900", "message": "sdfsdf", "messageBy": "client" }
+    ]
   },
   {
     "serial": "5",
     "subjects": "Client validation response",
     "status": "Client response pending",
-    "addedAt": "21/09/2023"
+    "addedAt": "21/09/2023",
+    "history": [
+      { "date": "20-12-2900", "message": "sdfsdf", "messageBy": "client" }
+    ]
   },
   {
     "serial": "6",
     "subjects": "Client response",
     "status": "Client response pending",
-    "addedAt": "21/09/2023"
+    "addedAt": "21/09/2023",
+    "history": [
+      { "date": "20-12-2900", "message": "sdfsdf", "messageBy": "client" }
+    ]
   }
 ]
