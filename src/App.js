@@ -38,7 +38,7 @@ function App() {
             }
           />
           <Route
-            path="/ticket/:tid"
+            path="/ticket/:tId"
             element={
               <PrivateRoute>
                 <Ticket />

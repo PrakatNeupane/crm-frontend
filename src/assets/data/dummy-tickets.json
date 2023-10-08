@@ -1,6 +1,6 @@
 [
   {
-    "serial": "1",
+    "id": "1",
     "subjects": "Issue with ssl",
     "status": "Client response pending",
     "addedAt": "21/09/2023",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "serial": "2",
+    "id": "2",
     "subjects": "Email respondence failure",
     "status": "Client response pending",
     "addedAt": "21/09/2023",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "serial": "3",
+    "id": "3",
     "subjects": "Graphics issue",
     "status": "Client response pending",
     "addedAt": "21/09/2023",
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "serial": "4",
+    "id": "4",
     "subjects": "Issue with Client response",
     "status": "Client response pending",
     "addedAt": "21/09/2023",
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "serial": "5",
+    "id": "5",
     "subjects": "Client validation response",
     "status": "Client response pending",
     "addedAt": "21/09/2023",
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "serial": "6",
+    "id": "6",
     "subjects": "Client response",
     "status": "Client response pending",
     "addedAt": "21/09/2023",

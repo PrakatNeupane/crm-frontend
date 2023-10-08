@@ -1,6 +1,7 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Tickettable = ({ tickets }) => {
   return (
@@ -17,8 +18,10 @@ const Tickettable = ({ tickets }) => {
         {tickets.length ? (
           tickets.map((row) => (
             <tr key={Math.random()}>
-              <td>{row.serial}</td>
-              <td>{row.subjects}</td>
+              <td>{row.id}</td>
+              <td>
+                <Link to={`/ticket/${row.id}`}>{row.subjects}</Link>
+              </td>
               <td>{row.status}</td>
               <td>{row.addedAt}</td>
             </tr>
